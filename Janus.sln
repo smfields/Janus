@@ -8,9 +8,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9B9EB26F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pipelines", "pipelines", "{F9A4BA40-3249-4267-BFFC-BCFEF84771EC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{E8AFAC8F-E034-4176-9719-319A29017D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Janus", "src\Janus\Janus.csproj", "{0FF82643-54D8-4773-BD1A-899BCD72C242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicJanusSample", "samples\BasicJanusSample\BasicJanusSample.csproj", "{01CCFC49-F69D-4328-B504-33864261E699}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FF82643-54D8-4773-BD1A-899BCD72C242} = {F659A679-AA23-431B-AC65-6E6644DC3BED}
+		{01CCFC49-F69D-4328-B504-33864261E699} = {E8AFAC8F-E034-4176-9719-319A29017D11}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FF82643-54D8-4773-BD1A-899BCD72C242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF82643-54D8-4773-BD1A-899BCD72C242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF82643-54D8-4773-BD1A-899BCD72C242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF82643-54D8-4773-BD1A-899BCD72C242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CCFC49-F69D-4328-B504-33864261E699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CCFC49-F69D-4328-B504-33864261E699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CCFC49-F69D-4328-B504-33864261E699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CCFC49-F69D-4328-B504-33864261E699}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
